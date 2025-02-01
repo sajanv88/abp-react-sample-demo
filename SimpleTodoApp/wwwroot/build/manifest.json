@@ -1,0 +1,42 @@
+{
+  "_Main-BfukkqR5.js": {
+    "file": "assets/Main-BfukkqR5.js",
+    "name": "Main",
+    "imports": [
+      "src/App.tsx"
+    ]
+  },
+  "src/App.tsx": {
+    "file": "assets/App-BlwldxXn.js",
+    "name": "App",
+    "src": "src/App.tsx",
+    "isEntry": true,
+    "dynamicImports": [
+      "src/Pages/Error.tsx",
+      "src/Pages/Index.tsx"
+    ],
+    "css": [
+      "assets/App-D-kAjiT-.css"
+    ]
+  },
+  "src/Pages/Error.tsx": {
+    "file": "assets/Error-DlcRFsWN.js",
+    "name": "Error",
+    "src": "src/Pages/Error.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/App.tsx",
+      "_Main-BfukkqR5.js"
+    ]
+  },
+  "src/Pages/Index.tsx": {
+    "file": "assets/Index-DPNidsdQ.js",
+    "name": "Index",
+    "src": "src/Pages/Index.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/App.tsx",
+      "_Main-BfukkqR5.js"
+    ]
+  }
+}

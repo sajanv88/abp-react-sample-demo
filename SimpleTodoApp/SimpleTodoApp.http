@@ -1,0 +1,14 @@
+@SimpleTodoApp_HostAddress = http://localhost:5216/api
+
+GET {{SimpleTodoApp_HostAddress}}/todos/item/todo-items
+Accept: application/json
+
+###
+
+POST {{SimpleTodoApp_HostAddress}}/todos/item/todo-item
+Content-Type: application/json
+
+{
+  "title": "My first todo",
+  "description": "Complete the tutorial"
+}

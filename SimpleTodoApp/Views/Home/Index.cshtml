@@ -1,0 +1,29 @@
+@using InertiaCore
+@using InertiaCore.Utils
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title></title>
+    @await Inertia.Head(Model)
+</head>
+<body>
+<div>
+    @Vite.ReactRefresh() @await Inertia.Html(Model) @Vite.Input("src/App.tsx")
+</div>
+
+@{
+    var token = Html.AntiForgeryToken();
+}
+<script>
+    window.onload = function () {
+        window.__RequestVerificationToken = '@token'
+    };
+</script>
+</body>
+</html>
