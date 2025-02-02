@@ -6,7 +6,7 @@ This repository contains the code used in my blogs post series on building a Tod
 [Watch the video](https://vimeo.com/1052594921/2d04e1a838)
 
 ## Blog Posts
-### Part 1: [https://blogs.sajankumarv.com/integrating-abp-modules-in-your-asp-net-core-web-api-project-a-step-by-step-guide-774c63ef8014)
+### Part 1: [Integrating ABP Modules in Your ASP.NET Core Web API Project. A Step-by-Step Guide](https://blogs.sajankumarv.com/integrating-abp-modules-in-your-asp-net-core-web-api-project-a-step-by-step-guide-774c63ef8014)
 ### Part 2: [Building UI with React using the MVC Approach](https://blogs.sajankumarv.com/building-a-scalable-ui-with-react-abp-framework-and-inertia-js-using-the-mvc-approach-5857f2e0551b)
 Feel free to explore, contribute, and share your thoughts!
 
